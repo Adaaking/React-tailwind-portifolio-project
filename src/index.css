@@ -12,6 +12,13 @@
   html {
     scroll-behavior: smooth;
   }
+  li{
+    list-style: none;
+  }
+  li:before {
+      content: '✓';
+      color:"coral"
+  }
   h1,
   h2,
   h3,
